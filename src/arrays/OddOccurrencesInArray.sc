@@ -37,6 +37,11 @@ object OddOccurrencesInArray {
   solution3(ar1)
   solution3(ar2)
   solution3(ar3)
+  
+// 100%
+def solution(A: Array[Int]): Int = {
+A.foldLeft(0)(_^_)
+}
 
   /*
   A non-empty zero-indexed array A consisting of N integers is given. The array contains an odd number of elements, and each element of the array can be paired with another element that has the same value, except for one element that is left unpaired.
